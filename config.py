@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "applemusicrobot")
 BOT_NAME = getenv("BOT_NAME" , "applemusic")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "Airpodsgen2")
-EVALOP = list(map(int, getenv("EVALOP", None).split()))
+EVALOP = list(map(int, getenv("EVALOP", "5231150389").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
